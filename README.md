@@ -33,4 +33,4 @@ data = pd.read_csv(path, names=[
 
 As explained before, the ANN has the following structure:
 
-!test(https://github.com/erikmurtaj/NeuralNetwork_diabetic/blob/image.jpg?raw=true)
+![plot](./img/plot.png)
