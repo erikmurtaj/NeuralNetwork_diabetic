@@ -33,7 +33,7 @@ data = pd.read_csv(path, names=[
 
 As explained before, the ANN has the following structure:
 
-![plot](./img/plot.png)
+![plot](./img/ANN_structure.jpg)
 
 # Weights initialization
 For this algorithm it starts assigning random values to the weights:
@@ -92,8 +92,7 @@ weights as they go.
 
 The output error has been evaluated in the following way:
 
-        𝛿out = Oout (1 - Oout) (tout - Oout)
-				ΔWout = η * 𝛿out* Ohidden_layer2
+![equation](./img/formula_error.jpg)
 
 
 For each neuron we need to calculate the slope using the sigmoid function, calculated
