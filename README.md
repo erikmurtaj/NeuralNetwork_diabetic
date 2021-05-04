@@ -4,9 +4,9 @@ Atrificial Neural Network with Backpropagation developed in python  as a learnin
 The Backpropagation algorithm is a supervised learning method for multilayer feed-forward networks from the field of Artificial Neural Networks.
 
 The main dataset (Diabetic_dataset.txt) has been divided in the following way:
-75% for the training process (dataset_train.csv);
-15% for the testing process (dataset_test.csv);
-10% for the validation process (dataset_validation.csv).
+* 75% for the training process (dataset_train.csv);
+* 15% for the testing process (dataset_test.csv);
+* 10% for the validation process (dataset_validation.csv).
 
 
 ANN with two hidden layers, the first with 13 neurons and the second with 7.
