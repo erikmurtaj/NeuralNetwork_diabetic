@@ -132,9 +132,9 @@ def draw (x_axes, y_axes):
 
 if __name__ == "__main__":
 
-    train_X, train_Y = load_dataset("dab.csv")
-    validation_X, validation_Y = load_dataset("dab_validation.csv")
-    test_X, test_Y = load_dataset("dab_test.csv")
+    train_X, train_Y = load_dataset("dataset_training.csv")
+    validation_X, validation_Y = load_dataset("dataset_validation.csv")
+    test_X, test_Y = load_dataset("dataset_test.csv")
 
     train_X = np.array(train_X)
     validation_X = np.array(validation_X)
