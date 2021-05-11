@@ -39,7 +39,7 @@ data = pd.read_csv(path, names=[
 
 As explained before, the ANN has the following structure:
 
-![GitHub Logo](/img/ANN_structure.png)
+![GitHub Logo](/img/ANN_structure.JPG)
 Format: ![Alt Text](url)
 
 # Weights initialization
