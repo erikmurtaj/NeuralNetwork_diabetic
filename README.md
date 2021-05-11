@@ -39,7 +39,8 @@ data = pd.read_csv(path, names=[
 
 As explained before, the ANN has the following structure:
 
-![plot](./img/ANN_structure.jpg)
+![GitHub Logo](/img/ANN_structure.png)
+Format: ![Alt Text](url)
 
 # Weights initialization
 For this algorithm it starts assigning random values to the weights:
