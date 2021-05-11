@@ -39,8 +39,7 @@ data = pd.read_csv(path, names=[
 
 As explained before, the ANN has the following structure:
 
-![GitHub Logo](/img/ANN_structure.JPG)
-Format: ![Alt Text](url)
+![ANN structure](/img/ANN_structure.JPG)
 
 # Weights initialization
 For this algorithm it starts assigning random values to the weights:
@@ -99,7 +98,7 @@ weights as they go.
 
 The output error has been evaluated in the following way:
 
-![equation](./img/formula_error.jpg)
+![Error Equation](/img/formula_error.JPG)
 
 
 For each neuron we need to calculate the slope using the sigmoid function, calculated
