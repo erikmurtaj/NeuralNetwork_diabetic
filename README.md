@@ -42,7 +42,7 @@ As explained before, the ANN has the following structure:
 ![ANN structure](/img/ANN_structure.JPG)
 
 # Weights initialization
-For this algorithm it starts assigning random values to the weights:
+The algorithm it starts assigning random values to the weights:
 
 ```python
         np.random.seed(1)
