@@ -132,7 +132,7 @@ def draw (x_axes, y_axes):
 
 if __name__ == "__main__":
 
-    train_X, train_Y = load_dataset("dataset_training.csv")
+    train_X, train_Y = load_dataset("dataset_train.csv")
     validation_X, validation_Y = load_dataset("dataset_validation.csv")
     test_X, test_Y = load_dataset("dataset_test.csv")
 
